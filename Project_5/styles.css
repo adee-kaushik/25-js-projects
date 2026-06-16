@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #c2a1a1;
+    
+}
+.count{
+    background-color: #fff;
+    height: 70vh;
+    width: 80vw;
+    margin: auto;
+    margin-top: 10vh;
+    text-align: center;
+    
+}
+h1{
+    font-size: 10rem;
+    
+    padding: 0px;
+}
+h2{
+
+    font-size: xx-large;
+}
+
+.btn{
+    display: inline;
+    width: 120px;
+    height: 35px;
+    border-radius: 12px;
+    border: 1px solid gray;
+    background-color: #605151;
+    color: rgb(238, 236, 234);
+    font-size: large;
+}
