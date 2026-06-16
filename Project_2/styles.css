@@ -1,0 +1,41 @@
+.container{
+    position: absolute;
+    top: 30%;
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
+
+}
+h1{
+    animation: change-color 4s infinite alternate;
+}
+@keyframes change-color {
+    0%{
+        color: rgb(39, 21, 129);
+    }
+    20%{
+     color: rgb(54, 13, 105);   
+    }
+    40%{
+        color:rgb(216, 184, 24)
+    }
+    60%{
+     color: rgb(241, 0, 0);   
+    }
+    80%{
+     color: rgb(122, 227, 10);   
+    }
+    100%{
+        color: rgb(181, 5, 78);
+    }
+}
+.btn{
+    background-color: rgb(31, 6, 101);
+    border: none;
+    height: 30px;
+    width: 90px;
+    font-size: medium;
+    border-radius: 10px;
+    color: aqua;
+    
+}
