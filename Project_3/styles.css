@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #e8dfdf;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+
+}
+.card{
+    position: relative;
+    top: 60px;
+    background-color: #fff;
+    height: 400px;
+    width: 450px;
+    margin: auto;
+    border: 5px solid rgb(212, 202, 202);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+.headings{
+    color: #2b3575;
+}
+
+.btn{
+    height: 30px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: #2b3575;
+    color: aqua;
+}
